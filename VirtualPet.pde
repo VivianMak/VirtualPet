@@ -9,7 +9,7 @@ void draw() {
   
   //grass
   fill(34,254,26);
-  rect(0,950,1000,50);  
+  rect(0,750,800,50);  
   
   //circle
   fill(245,187,18);
