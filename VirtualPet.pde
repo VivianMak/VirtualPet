@@ -20,6 +20,9 @@ void draw() {
  
   //arc
   arc(400,500,250,250,0,PI);
+  
+  //ellipse
+  ellipse(375,200,250,250);
  
  
 }
