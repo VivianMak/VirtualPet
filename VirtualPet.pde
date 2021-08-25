@@ -16,7 +16,7 @@ void draw() {
  
   //rectangle
   fill(245,187,18);
-  rect(250,200,200,200);
+  rect(250,200,200,150);
  
   //ellipse
   ellipse(350,200,200,200);
