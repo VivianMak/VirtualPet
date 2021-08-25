@@ -1,21 +1,25 @@
 void setup () {
   size(800,800);
-  background(27,207,213);
-  background(116,120,192);
-  110, 158, 235
+ 
 }
 
 void draw() {
-  
+ 
+  //background
+  background(110, 158, 235);
+ 
   noStroke();
-  
+ 
   //grass
   fill(34,254,26);
   rect(0,750,800,50);  
-  
-  //circle
+ 
+  //rectangle
   fill(245,187,18);
-  ellipse(175,250,100,90);
-  
-  
+  rect(300,200,200,300);
+ 
+  //arc
+  arc(400,500,200,200,0,PI);
+ 
+ 
 }
