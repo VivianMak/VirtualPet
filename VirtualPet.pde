@@ -11,8 +11,8 @@ void draw() {
   noStroke();
  
   //GRASS 
-  fill(34,254,26);
-  rect(0,550,600,50);  
+  fill(165, 240, 125);
+  rect(0,550,600,75);  
  
   //BODY
   fill(245,187,18);
@@ -24,6 +24,7 @@ void draw() {
   
  //EYES
  fill(255, 255, 255);
- ellipse(250,200,60,60);
+ ellipse(275,200,60,60);
+ ellipse(310,200,60,60);
  
 }
