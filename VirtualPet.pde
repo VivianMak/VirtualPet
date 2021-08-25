@@ -10,17 +10,20 @@ void draw() {
  
   noStroke();
  
-  //grass
+  //GRASS 
   fill(34,254,26);
   rect(0,550,600,50);  
  
-  //rectangle
+  //BODY
   fill(245,187,18);
   rect(250,200,200,150);
- 
-  //ellipse
+
   ellipse(350,200,200,200);
-  ellipse(350,400,200,200);
- 
+  ellipse(350,350,200,200);
+  
+  
+ //EYES
+ fill(255, 255, 255);
+ ellipse(300,200,40,40);
  
 }
