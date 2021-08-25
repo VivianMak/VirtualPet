@@ -25,8 +25,9 @@ void draw() {
  //EYES
 
  fill(0,0,0);
- ellipse(280,220,65,65);
- ellipse(380,220,65,65);
+ ellipse(280,205,65,65);
+ ellipse(380,205,65,65);
+ 
  
  fill(255, 255, 255);
  ellipse(275,200,60,60);
