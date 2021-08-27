@@ -13,14 +13,45 @@ void draw() {
   //GRASS 
   fill(165, 240, 125);
   rect(0,500,600,100);  
+  
+  //LEGS
+  stroke(0,0,0);
+  fill(245,187,18);
+  rect(275,350,25,175);
+  
+  fill(245,187,18);
+  rect(400,350,25,175);
+  
+  //FEET
+  ellipse(280,525,40,20);
+  ellipse(405,525,40,20);
+  
+  //LEFT HAND
+  rect(405,275,125,20);
+  
+  //RIGHT HAND
+  
+  rect(200,275,75,20);
+  rect(200,200,20,95);
+  
+  noStroke();
+  rect(210,277,50,16);
  
   //BODY
-  fill(245,187,18);
-  rect(250,200,200,100);
+  
+  stroke(0,0,0);
+  strokeWeight(7);
+  
+  fill(245, 0, 20);
 
   ellipse(350,200,200,200);
   ellipse(350,300,200,200);
   
+  
+  fill(245,187,18);
+  rect(250,200,200,100);
+  
+  strokeWeight(5);
   
  //EYES
 
@@ -44,27 +75,6 @@ void draw() {
  //MOUTH
  fill(245,187,18);
  arc(325,250,25,25, 0, PI);
- 
- //LEGS
- noStroke();
-  fill(245,187,18);
-  rect(275,350,25,175);
-  
-  fill(245,187,18);
-  rect(400,350,25,175);
-  
-  //FEET
-  ellipse(280,525,40,20);
-  ellipse(405,525,40,20);
-  
-  //LEFT HAND
-  
-  rect(405,275,125,20);
-  
-  //RIGHT HAND
-  rect(200,275,75,20);
-  rect(200,200,20,75);
-
  
 }
 
