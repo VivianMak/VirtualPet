@@ -1,6 +1,3 @@
-![](Penguin.JPG)   
-<img width="644" height="708" alt="jake" src="https://github.com/user-attachments/assets/bfd05a6e-0a63-4d78-aa0a-891237d70c2c" />
-
 Virtual Pet
 
 =============
@@ -22,7 +19,7 @@ Note: The following Processing functions do not work on the web:
 + Using `CHORD` or `PIE` modes with `arc()`
 + Using an image as an argument in `background()`
 
-Samples of Student Work
+Student Work
 -----------------------
-None yet! 
+<img width="644" height="708" alt="jake" src="https://github.com/user-attachments/assets/bfd05a6e-0a63-4d78-aa0a-891237d70c2c" />
 
